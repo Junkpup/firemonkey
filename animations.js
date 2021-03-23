@@ -20,7 +20,7 @@ function animate() {
     if (position < 1536) {
       position = position + diff;
     }
-    //we increment the position by 256 each time
+    
     else {
       position = 256;
     }
