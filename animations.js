@@ -2,14 +2,15 @@ var tID;
 
 function stopAnimate() {
   clearInterval(tID);
-} //end of stopAnimate()
+  document.getElementById("image").style.backgroundPosition = '1472px';
+} 
 
 
-function animate() {
+function animateScript() {
 
-  var position = 256; //start position for the image slicer
-  const interval = 100; //100 ms of interval for the setInterval()
-  const diff = 256; //diff as a variable for position offset
+  var position = 184; 
+  const interval = 100; 
+  const diff = 184; 
   
   tID = setInterval(() => {
   
@@ -17,14 +18,10 @@ function animate() {
       `-${position}px 0px`;
     
     
-    if (position < 1536) {
+    if (position < 1472) {
       position = position + diff;
     }
     
     else {
-      position = 256;
+      position = 184;
     }
-    //reset the position to 256px, once position exceeds 1536px
-    
-  }, interval); //end of setInterval
-} //end of animateScript()
