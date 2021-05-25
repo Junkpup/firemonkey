@@ -3,7 +3,7 @@
 A game made for raising awareness about the impact of forest fires (hinted very subtly).
 
 ## The team:
-* **Team Lead**: <u>Arnav R Coushik</u>
+* **Team Lead**: Arnav R Coushik
 * **Code, concept and start page**: Arnav R Coushik
 * **Enemy Entities**: Enan Ramachandran and Arnav R Coushik
 * **Level Design**: Aditya Srivaths
