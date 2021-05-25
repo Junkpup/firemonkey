@@ -1,0 +1,222 @@
+
+    body {
+  text-align: center;
+  padding: 30px;
+}
+
+.eightbit-btn {
+  background: #92CD41;
+  display: inline-block;
+  position: relative;
+  text-align: center;
+  font-size: 30px;
+  padding: 20px;
+  font-family: "Press Start 2P";
+  text-decoration: none;
+  color: white;
+  box-shadow: inset -4px -4px 0px 0px #4AA52E;
+  cursor: pointer;
+}
+.eightbit-btn:hover, .eightbit-btn:focus {
+  background: #76c442;
+  box-shadow: inset -6px -6px 0px 0px #4AA52E;
+}
+.eightbit-btn:active {
+  box-shadow: inset 4px 4px 0px 0px #4AA52E;
+}
+.eightbit-btn:before, .eightbit-btn:after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  box-sizing: content-box;
+}
+.eightbit-btn:before {
+  top: -6px;
+  left: 0;
+  border-top: 6px black solid;
+  border-bottom: 6px black solid;
+}
+.eightbit-btn:after {
+  left: -6px;
+  top: 0;
+  border-left: 6px black solid;
+  border-right: 6px black solid;
+}
+.eightbit-btn--reset {
+  background: #E76E55;
+  box-shadow: inset -4px -4px 0px 0px #8C2022;
+}
+.eightbit-btn--reset:hover, .eightbit-btn--reset:focus {
+  background: #CE372B;
+  box-shadow: inset -6px -6px 0px 0px #8C2022;
+}
+.eightbit-btn--reset:active {
+  box-shadow: inset 4px 4px 0px 0px #8C2022;
+}
+.eightbit-btn--proceed {
+  background: #F7D51D;
+  box-shadow: inset -4px -4px 0px 0px #E59400;
+}
+.eightbit-btn--proceed:hover, .eightbit-btn--proceed:focus {
+  background: #F2C409;
+  box-shadow: inset -6px -6px 0px 0px #E59400;
+}
+.eightbit-btn--proceed:active {
+  box-shadow: inset 4px 4px 0px 0px #E59400;
+}
+
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 30px;
+  font-family: "Press Start 2P";
+  text-align: center;
+  user-select: none;
+ }
+
+h1 {
+  font-size: 2.8rem;
+  line-height: 3.4rem;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+h1, h2 {
+  font-family: "Press Start 2P";
+}
+
+p {
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+}
+
+hr {
+  margin: 40px auto;
+  max-width: 100px;
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #ccc;
+  padding: 0;
+}
+
+.pen-intro {
+  text-align: center;
+}
+
+.close {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 40px;
+  height: 40px;
+  background: #d9c58f;
+  color: #000;
+  cursor: pointer;
+  border: 0;
+  font-family: "Press Start 2P";
+  text-decoration: bold;
+}
+.mask {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(52, 73, 94, 0.8);
+  z-index: 50;
+  visibility: hidden;
+  opacity: 7;
+  transition: 0.5s ease;
+}
+.mask2 {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(52, 73, 94, 0.8);
+  z-index: 50;
+  visibility: hidden;
+  opacity: 7;
+  transition: 0.5s ease;
+}
+.modal {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  width: 450px;
+  height: 300px;
+  margin-left: -200px;
+  margin-top: -150px;
+  background: #d9c58f;
+  z-index: 100;
+  visibility: hidden;
+  display: inline-block;
+  opacity: 7;
+  border-left: 6px black solid;
+  border-right: 6px black solid;
+  border-top: 6px black solid;
+  border-bottom: 6px black solid;
+  	line-height: 1.6;
+	letter-spacing: 3px;
+	overflow: auto;
+	transition: 0.5s ease;
+}
+.modal2 {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  width: 450px;
+  height: 300px;
+  margin-left: -200px;
+  margin-top: -150px;
+  background: #d9c58f;
+  z-index: 100;
+  visibility: hidden;
+  display: inline-block;
+  opacity: 7;
+  border-left: 6px black solid;
+  border-right: 6px black solid;
+  border-top: 6px black solid;
+  border-bottom: 6px black solid;
+  	line-height: 1.6;
+	letter-spacing: 3px;
+	overflow: auto;
+	transition: 0.5s ease;
+	transform: translateY(-2);
+}
+.active {
+  visibility: visible;
+  opacity: 1;
+}
+.active + .modal {
+  visibility: visible;
+  opacity: 1;
+  transform: translateY(0);
+  transition: 0.5s ease;
+}
+
+img {
+	-webkit-user-drag: none;
+	-khtml-user-drag: none;
+	-moz-user-drag: none;
+	-o-user-drag: none;
+	user-drag: none;
+}
+li {
+	line-height: 2;
+}
+
+a {
+	color:#ba4949;
+	
+}
