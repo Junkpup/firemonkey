@@ -7,7 +7,7 @@ Controlled forest fires are considered beneficial for forest growth. However, un
 ## The team:
 * **Team Lead**: Arnav R Coushik
 * **Code, concept and start page**: Arnav R Coushik
-* **Enemy Entities**: Enan Ramachandran and Arnav R Coushik
+* **Enemy Entities**: K. Enan A. Ramachandran and Arnav R Coushik
 * **Level Design**: Aditya Srivaths
 * **Bucket Entity**: Kevin Jacob Joby
 * **Asset finding**: Akshat Sathiya
