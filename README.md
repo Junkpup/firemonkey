@@ -17,4 +17,5 @@ Controlled forest fires are considered beneficial for forest growth. However, un
 * **Main character**: Elthen (https://patreon.com/elthen)
 * **Fire entity**: https://imgur.com
 
-### In case of an error, please reload the page by using the keyboard shortcut 'ctrl+f5'.
+### 
+⚠️ In case of an error, please reload the page by using the keyboard shortcut 'ctrl+f5'.
