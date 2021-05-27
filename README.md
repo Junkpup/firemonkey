@@ -16,3 +16,5 @@ Controlled forest fires are considered beneficial for forest growth. However, un
 * **Tileset and Enemy sprite sheet**: Ansimuz (<a href="http://ansimuz.com" target="_blank">http://ansimuz.com</a>)
 * **Main character**: Elthen (https://patreon.com/elthen)
 * **Fire entity**: https://imgur.com
+
+### In case of an error, please reload the page by using the keyboard shortcut 'ctrl+f5'.
