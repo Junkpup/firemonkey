@@ -87,7 +87,8 @@
 		window.location="game.html";
 	});
 		$('#howto').on('click', function(){
-			window.open('https://junkpup.github.io/firemonkey/howto.html');
+			var opened = window.open('https://junkpup.github.io/firemonkey/howto.html');
+			opened.requestFullscreen();
 		});
 		</script>
 	</body>
