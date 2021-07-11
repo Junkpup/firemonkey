@@ -36,63 +36,12 @@
 			  draggable = "false" src="wasd.png" style="height:30px;"> or arrow 
 			  keys. Stomp the evil Hooded Ones by jumping on them, and go forth to save the forest.</h5>
 			</div>
-			<br>
-			<div style="margin:auto;margin-top:20px;">
-			<button class="eightbit-btn eightbit-btn--proceed show2">Credits</button>
-			</div>
-			<div class="mask2" role="dialog"></div>
-			<div class="modal2" role="alert">
-			  <button class="close" role="button"><strong>&times </strong></button>
-			  <h5 class="info">Credits: <br><ul style="text-align:left;"><li>Team Lead: <u style="color:#ba4949;">Arnav R. Coushik</u> (Class 10D)<li>Concept, Design, Development and Start Page: 
-			  <u style="color:#ba4949;">
-			  Arnav R. Coushik </u>(Class 10D)<li>Enemy entities: <u style="color:#ba4949;">Arnav R. Coushik</u> and <u style="color:#ba4949;">K. Enan A. Ramachandran</u> (Class 10C)<li>Level Concept and Design: <u style="color:#ba4949;">Aditya Srivaths
-			  </u>(Class 10D)<li>Bucket Entity: <u style="color:#ba4949;">Kevin Jacob Joby</u>(Class 10D)<li>Tilesets and assets(finding): <u style="color:#ba4949;">Akshat Sathiya
-			  </u>(Class 10D)<li>Fire entity: <a target="_blank"href="https://imgur.com" style="color:#ba4949;">imgur.com</a><li>Tileset: <a target="_blank" href="http://ansimuz.com">Ansimuz (http://ansimuz.com)</a>
-			  <li>Character: <a target="_blank"href="https://www.patreon.com/elthen">Elthen(Ahmet Avci) on Patreon</a></h5>
-			</div>
 		</div>
 		</div>
 		<div style="margin:auto;margin-top:5px;">
 			<h5 style="margin-top:15px;position:relative;top:30px;line-height:1.6;">Controlled forest fires are considered beneficial for forest growth. However, uncontrolled, large-scale forest fires can put biodiversity at risk, cause air pollution and water pollution.</h5>
 		</div>
 			<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js" type="text/javascript"></script>
-	<script>
-		$(".show").on("click", function(){
-	  $(".mask").addClass("active");
-	});
-	
-	$(".show2").on("click", function(){
-	  $(".modal2").addClass("active");
-	  $(".mask2").addClass("active");
-	});
-
-	// Function for close the Modal
-
-	function closeModal(){
-	  $(".mask").removeClass("active");
-	  $(".modal2").removeClass("active");
-	  $(".mask2").removeClass("active");
-	}
-
-	// Call the closeModal function on the clicks/keyboard
-
-	$(".close, .mask, .mask2").on("click", function(){
-	  closeModal();
-	});
-
-	$(document).keyup(function(e) {
-	  if (e.keyCode == 27) {
-		closeModal();
-	  }
-	});
-	$('#start').on('click', function(){
-		window.location="game.html";
-	});
-		$('#howto').on('click', function(){
-			var opened = window.open('https://junkpup.github.io/firemonkey/howto.html');
-			opened.requestFullscreen();
-		});
-		</script>
 	</body>
 	
 </html>
